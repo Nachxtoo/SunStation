@@ -1,0 +1,135 @@
+/* En tu archivo CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+.body-contactarnos{
+    background-color: rgb(233, 41, 41);
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+header{
+    padding: 60px;
+    text-align: center;
+    background-image: url("../img/banner.webp");
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight:100;
+    font-style: normal;
+    -webkit-text-stroke: #656565;
+    -webkit-text-stroke-color: #656565;
+    -webkit-text-stroke-width: 0.5px;
+    
+}
+header div{
+    
+    color: white;
+    background-color: #cbffcbc9;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+.logo{
+    width: 100xp;
+    height: 100px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    background-color: #93AD91;
+    font-size: 28px;
+    font-family: "Lora", serif;
+    
+}
+.navbar a{
+    color:white;
+    padding: 14px;
+    text-decoration: none;
+}
+.navbar a:hover{
+    background-color: #808782;
+    border-radius: 20px;
+    border-color: #656565;
+    border: 20px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+aside{
+    flex: 19%;
+    background-color: #A6D3A0;
+    padding: 10px;
+    
+}
+aside img{
+    width: 50%;
+    border-radius: 30px;
+    
+}
+.main{
+    flex: 75%;
+    background-color: #D1FFD7;
+    padding: 20px;
+}
+h2{
+    text-transform: uppercase;
+    margin-top: 10px;
+    color: rgb(6, 39, 28);
+}
+h3{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    text-transform: uppercase;
+    color: rgb(6, 40, 41);
+}
+h5{
+    margin-bottom: 10px;
+}
+.main img{
+    width: 70%;
+   
+    object-fit: cover;
+    border-radius: 10px;
+}
+.Ver-Mas{
+    background-color: rgb(25, 68, 149);
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-decoration: none;
+}
+
+
+footer{
+    padding: 10px;
+    text-align: center;
+    background-color: #656565;
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.Mensaje{
+    margin-bottom: 10px;
+}
+.fotos{
+    flex: 75%;
+    background-color: rgb(255, 255, 255);
+    padding: 140px;
+
+}
+.btn-btn-outline-success{
+    background-color: rgb(132, 180, 132);
+}
